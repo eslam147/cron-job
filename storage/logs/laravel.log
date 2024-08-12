@@ -1,0 +1,126 @@
+[2024-08-12 07:01:30] CronJob.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at D:\\xampp\\htdocs\\test2\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:210)
+[stacktrace]
+#0 D:\\xampp\\htdocs\\test2\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(135): Illuminate\\Log\\LogManager->resolve(NULL, NULL)
+#1 D:\\xampp\\htdocs\\test2\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(122): Illuminate\\Log\\LogManager->get(NULL)
+#2 D:\\xampp\\htdocs\\test2\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(645): Illuminate\\Log\\LogManager->driver()
+#3 D:\\xampp\\htdocs\\test2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(274): Illuminate\\Log\\LogManager->error('Uncaught Illumi...', Array)
+#4 D:\\xampp\\htdocs\\test2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(198): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#5 D:\\xampp\\htdocs\\test2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(246): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleException(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#6 D:\\xampp\\htdocs\\test2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(270): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleShutdown()
+#7 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}()
+#8 {main}
+"} 
+[2024-08-12 07:01:30] CronJob.ERROR: Uncaught Illuminate\Contracts\Container\BindingResolutionException: Target [Illuminate\Contracts\Http\Kernel] is not instantiable. in D:\xampp\htdocs\test2\vendor\laravel\framework\src\Illuminate\Container\Container.php:1103
+Stack trace:
+#0 D:\xampp\htdocs\test2\vendor\laravel\framework\src\Illuminate\Container\Container.php(898): Illuminate\Container\Container->notInstantiable('Illuminate\\Cont...')
+#1 D:\xampp\htdocs\test2\vendor\laravel\framework\src\Illuminate\Container\Container.php(770): Illuminate\Container\Container->build('Illuminate\\Cont...')
+#2 D:\xampp\htdocs\test2\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(856): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array, true)
+#3 D:\xampp\htdocs\test2\vendor\laravel\framework\src\Illuminate\Container\Container.php(706): Illuminate\Foundation\Application->resolve('Illuminate\\Cont...', Array)
+#4 D:\xampp\htdocs\test2\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(841): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#5 D:\xampp\htdocs\test2\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php(120): Illuminate\Foundation\Application->make('Illuminate\\Cont...', Array)
+#6 Command line code(1): app('Illuminate\\Cont...')
+#7 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Illuminate\\Contracts\\Container\\BindingResolutionException: Target [Illuminate\\Contracts\\Http\\Kernel] is not instantiable. in D:\\xampp\\htdocs\\test2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php:1103
+Stack trace:
+#0 D:\\xampp\\htdocs\\test2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(898): Illuminate\\Container\\Container->notInstantiable('Illuminate\\\\Cont...')
+#1 D:\\xampp\\htdocs\\test2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(770): Illuminate\\Container\\Container->build('Illuminate\\\\Cont...')
+#2 D:\\xampp\\htdocs\\test2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(856): Illuminate\\Container\\Container->resolve('Illuminate\\\\Cont...', Array, true)
+#3 D:\\xampp\\htdocs\\test2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(706): Illuminate\\Foundation\\Application->resolve('Illuminate\\\\Cont...', Array)
+#4 D:\\xampp\\htdocs\\test2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(841): Illuminate\\Container\\Container->make('Illuminate\\\\Cont...', Array)
+#5 D:\\xampp\\htdocs\\test2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(120): Illuminate\\Foundation\\Application->make('Illuminate\\\\Cont...', Array)
+#6 Command line code(1): app('Illuminate\\\\Cont...')
+#7 {main}
+  thrown at D:\\xampp\\htdocs\\test2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php:1103)
+[stacktrace]
+#0 {main}
+"} 
+[2024-08-12 07:01:30] CronJob.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at D:\\xampp\\htdocs\\test2\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:210)
+[stacktrace]
+#0 D:\\xampp\\htdocs\\test2\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(135): Illuminate\\Log\\LogManager->resolve(NULL, NULL)
+#1 D:\\xampp\\htdocs\\test2\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(122): Illuminate\\Log\\LogManager->get(NULL)
+#2 D:\\xampp\\htdocs\\test2\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(645): Illuminate\\Log\\LogManager->driver()
+#3 D:\\xampp\\htdocs\\test2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(274): Illuminate\\Log\\LogManager->error('Uncaught Invali...', Array)
+#4 D:\\xampp\\htdocs\\test2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(198): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#5 D:\\xampp\\htdocs\\test2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(246): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleException(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#6 D:\\xampp\\htdocs\\test2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(270): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleShutdown()
+#7 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}()
+#8 {main}
+"} 
+[2024-08-12 07:01:30] CronJob.ERROR: Uncaught InvalidArgumentException: Please provide a valid cache path. in D:\xampp\htdocs\test2\vendor\laravel\framework\src\Illuminate\View\Compilers\Compiler.php:66
+Stack trace:
+#0 D:\xampp\htdocs\test2\vendor\laravel\framework\src\Illuminate\View\ViewServiceProvider.php(96): Illuminate\View\Compilers\Compiler->__construct(Object(Illuminate\Filesystem\Filesystem), NULL, '', true, 'php')
+#1 D:\xampp\htdocs\test2\vendor\laravel\framework\src\Illuminate\Container\Container.php(885): Illuminate\View\ViewServiceProvider->Illuminate\View\{closure}(Object(Illuminate\Foundation\Application), Array)
+#2 D:\xampp\htdocs\test2\vendor\laravel\framework\src\Illuminate\Container\Container.php(770): Illuminate\Container\Container->build(Object(Closure))
+#3 D:\xampp\htdocs\test2\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(856): Illuminate\Container\Container->resolve('blade.compiler', Array, true)
+#4 D:\xampp\htdocs\test2\vendor\laravel\framework\src\Illuminate\Container\Container.php(706): Illuminate\Foundation\Application->resolve('blade.compiler', Array)
+#5 D:\xampp\htdocs\test2\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(841): Illuminate\Container\Container->make('blade.compiler', Array)
+#6 D:\xampp\htdocs\test2\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php(120): Illuminate\Foundation\Application->make('blade.compiler', Array)
+#7 Command line code(1): app('Illuminate\\View...')
+#8 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught InvalidArgumentException: Please provide a valid cache path. in D:\\xampp\\htdocs\\test2\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Compilers\\Compiler.php:66
+Stack trace:
+#0 D:\\xampp\\htdocs\\test2\\vendor\\laravel\\framework\\src\\Illuminate\\View\\ViewServiceProvider.php(96): Illuminate\\View\\Compilers\\Compiler->__construct(Object(Illuminate\\Filesystem\\Filesystem), NULL, '', true, 'php')
+#1 D:\\xampp\\htdocs\\test2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(885): Illuminate\\View\\ViewServiceProvider->Illuminate\\View\\{closure}(Object(Illuminate\\Foundation\\Application), Array)
+#2 D:\\xampp\\htdocs\\test2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(770): Illuminate\\Container\\Container->build(Object(Closure))
+#3 D:\\xampp\\htdocs\\test2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(856): Illuminate\\Container\\Container->resolve('blade.compiler', Array, true)
+#4 D:\\xampp\\htdocs\\test2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(706): Illuminate\\Foundation\\Application->resolve('blade.compiler', Array)
+#5 D:\\xampp\\htdocs\\test2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(841): Illuminate\\Container\\Container->make('blade.compiler', Array)
+#6 D:\\xampp\\htdocs\\test2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(120): Illuminate\\Foundation\\Application->make('blade.compiler', Array)
+#7 Command line code(1): app('Illuminate\\\\View...')
+#8 {main}
+  thrown at D:\\xampp\\htdocs\\test2\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Compilers\\Compiler.php:66)
+[stacktrace]
+#0 {main}
+"} 
+[2024-08-12 07:01:30] CronJob.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at D:\\xampp\\htdocs\\test2\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php:210)
+[stacktrace]
+#0 D:\\xampp\\htdocs\\test2\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(135): Illuminate\\Log\\LogManager->resolve(NULL, NULL)
+#1 D:\\xampp\\htdocs\\test2\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(122): Illuminate\\Log\\LogManager->get(NULL)
+#2 D:\\xampp\\htdocs\\test2\\vendor\\laravel\\framework\\src\\Illuminate\\Log\\LogManager.php(645): Illuminate\\Log\\LogManager->driver()
+#3 D:\\xampp\\htdocs\\test2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Exceptions\\Handler.php(274): Illuminate\\Log\\LogManager->error('Uncaught TypeEr...', Array)
+#4 D:\\xampp\\htdocs\\test2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(198): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#5 D:\\xampp\\htdocs\\test2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(246): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleException(Object(Symfony\\Component\\ErrorHandler\\Error\\FatalError))
+#6 D:\\xampp\\htdocs\\test2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\HandleExceptions.php(270): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleShutdown()
+#7 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}()
+#8 {main}
+"} 
+[2024-08-12 07:01:30] CronJob.ERROR: Uncaught TypeError: Illuminate\View\FileViewFinder::__construct(): Argument #2 ($paths) must be of type array, null given, called in D:\xampp\htdocs\test2\vendor\laravel\framework\src\Illuminate\View\ViewServiceProvider.php on line 84 and defined in D:\xampp\htdocs\test2\vendor\laravel\framework\src\Illuminate\View\FileViewFinder.php:53
+Stack trace:
+#0 D:\xampp\htdocs\test2\vendor\laravel\framework\src\Illuminate\View\ViewServiceProvider.php(84): Illuminate\View\FileViewFinder->__construct(Object(Illuminate\Filesystem\Filesystem), NULL)
+#1 D:\xampp\htdocs\test2\vendor\laravel\framework\src\Illuminate\Container\Container.php(885): Illuminate\View\ViewServiceProvider->Illuminate\View\{closure}(Object(Illuminate\Foundation\Application), Array)
+#2 D:\xampp\htdocs\test2\vendor\laravel\framework\src\Illuminate\Container\Container.php(770): Illuminate\Container\Container->build(Object(Closure))
+#3 D:\xampp\htdocs\test2\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(856): Illuminate\Container\Container->resolve('view.finder', Array, true)
+#4 D:\xampp\htdocs\test2\vendor\laravel\framework\src\Illuminate\Container\Container.php(706): Illuminate\Foundation\Application->resolve('view.finder', Array)
+#5 D:\xampp\htdocs\test2\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(841): Illuminate\Container\Container->make('view.finder', Array)
+#6 D:\xampp\htdocs\test2\vendor\laravel\framework\src\Illuminate\Container\Container.php(1431): Illuminate\Foundation\Application->make('view.finder')
+#7 D:\xampp\htdocs\test2\vendor\laravel\framework\src\Illuminate\View\ViewServiceProvider.php(44): Illuminate\Container\Container->offsetGet('view.finder')
+#8 D:\xampp\htdocs\test2\vendor\laravel\framework\src\Illuminate\Container\Container.php(885): Illuminate\View\ViewServiceProvider->Illuminate\View\{closure}(Object(Illuminate\Foundation\Application), Array)
+#9 D:\xampp\htdocs\test2\vendor\laravel\framework\src\Illuminate\Container\Container.php(770): Illuminate\Container\Container->build(Object(Closure))
+#10 D:\xampp\htdocs\test2\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(856): Illuminate\Container\Container->resolve('view', Array, true)
+#11 D:\xampp\htdocs\test2\vendor\laravel\framework\src\Illuminate\Container\Container.php(706): Illuminate\Foundation\Application->resolve('view', Array)
+#12 D:\xampp\htdocs\test2\vendor\laravel\framework\src\Illuminate\Foundation\Application.php(841): Illuminate\Container\Container->make('view', Array)
+#13 D:\xampp\htdocs\test2\vendor\laravel\framework\src\Illuminate\Foundation\helpers.php(120): Illuminate\Foundation\Application->make('view', Array)
+#14 Command line code(1): app('view')
+#15 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught TypeError: Illuminate\\View\\FileViewFinder::__construct(): Argument #2 ($paths) must be of type array, null given, called in D:\\xampp\\htdocs\\test2\\vendor\\laravel\\framework\\src\\Illuminate\\View\\ViewServiceProvider.php on line 84 and defined in D:\\xampp\\htdocs\\test2\\vendor\\laravel\\framework\\src\\Illuminate\\View\\FileViewFinder.php:53
+Stack trace:
+#0 D:\\xampp\\htdocs\\test2\\vendor\\laravel\\framework\\src\\Illuminate\\View\\ViewServiceProvider.php(84): Illuminate\\View\\FileViewFinder->__construct(Object(Illuminate\\Filesystem\\Filesystem), NULL)
+#1 D:\\xampp\\htdocs\\test2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(885): Illuminate\\View\\ViewServiceProvider->Illuminate\\View\\{closure}(Object(Illuminate\\Foundation\\Application), Array)
+#2 D:\\xampp\\htdocs\\test2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(770): Illuminate\\Container\\Container->build(Object(Closure))
+#3 D:\\xampp\\htdocs\\test2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(856): Illuminate\\Container\\Container->resolve('view.finder', Array, true)
+#4 D:\\xampp\\htdocs\\test2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(706): Illuminate\\Foundation\\Application->resolve('view.finder', Array)
+#5 D:\\xampp\\htdocs\\test2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(841): Illuminate\\Container\\Container->make('view.finder', Array)
+#6 D:\\xampp\\htdocs\\test2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(1431): Illuminate\\Foundation\\Application->make('view.finder')
+#7 D:\\xampp\\htdocs\\test2\\vendor\\laravel\\framework\\src\\Illuminate\\View\\ViewServiceProvider.php(44): Illuminate\\Container\\Container->offsetGet('view.finder')
+#8 D:\\xampp\\htdocs\\test2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(885): Illuminate\\View\\ViewServiceProvider->Illuminate\\View\\{closure}(Object(Illuminate\\Foundation\\Application), Array)
+#9 D:\\xampp\\htdocs\\test2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(770): Illuminate\\Container\\Container->build(Object(Closure))
+#10 D:\\xampp\\htdocs\\test2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(856): Illuminate\\Container\\Container->resolve('view', Array, true)
+#11 D:\\xampp\\htdocs\\test2\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(706): Illuminate\\Foundation\\Application->resolve('view', Array)
+#12 D:\\xampp\\htdocs\\test2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(841): Illuminate\\Container\\Container->make('view', Array)
+#13 D:\\xampp\\htdocs\\test2\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\helpers.php(120): Illuminate\\Foundation\\Application->make('view', Array)
+#14 Command line code(1): app('view')
+#15 {main}
+  thrown at D:\\xampp\\htdocs\\test2\\vendor\\laravel\\framework\\src\\Illuminate\\View\\FileViewFinder.php:53)
+[stacktrace]
+#0 {main}
+"} 
