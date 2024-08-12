@@ -1,14 +1,4 @@
 {
-    "name": "job/cronjob",
-    "description": "simple cron job",
-    "type": "library",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Eslam Mohamed Elmasry",
-            "email": "emomemo4555@gmail.com"
-        }
-    ],
     "require": {
         "php": "^8.0",
         "illuminate/support": "^9.0",
