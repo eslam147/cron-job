@@ -1,7 +1,7 @@
 {
     "name": "job/cronjob",
     "description": "simple cron job",
-    "type": "library",
+    "type": "project",
     "license": "MIT",
     "authors": [
         {
